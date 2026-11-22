@@ -17,7 +17,9 @@ set nolangremap			" Never apply 'langmap' to characters resulting from a mapping
 set noundofile			" Do not automatically saves undo history
 set t_Co=256			" Force 256 colour terminal
 set tabpagemax=15		" Maximum of 15 tab pages
+if !has('nvim')
 set termwinkey=<C-T>		" Set key starts a command in a terminal window to CTRL-T
+endif
 set timeout timeoutlen=100	" Decrease mapped key sequences latency
 set ttimeout ttimeoutlen=100	" Decrease key code sequences latency
 set viminfo=""			" Neither read nor write /viminfo/ file

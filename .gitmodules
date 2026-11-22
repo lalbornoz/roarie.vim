@@ -47,3 +47,6 @@
 [submodule "pack/lsp/start/lsp"]
 	path = pack/lsp/start/lsp
 	url = https://github.com/yegappan/lsp
+[submodule "plugins.nvim.d/utf8.nvim"]
+	path = plugins.nvim.d/utf8.nvim
+	url = https://github.com/uga-rosa/utf8.nvim
